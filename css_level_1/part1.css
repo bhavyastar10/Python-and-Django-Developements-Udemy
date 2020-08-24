@@ -1,0 +1,25 @@
+/* ctrl + '/' */
+
+/* selected tag{
+  property: value;
+} */
+
+h1{
+  color: red;
+}
+
+li{
+  color: rgb(255,97,0);
+  /* google color picker */
+
+}
+
+p{
+  color: #0895a8;
+  /* hex code for colour */
+}
+
+h4{
+  color: rgba(255,97,0,0.5);
+  /* a for alpha (tranparency as 0 means fully transparent) */
+}

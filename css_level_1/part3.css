@@ -1,0 +1,33 @@
+.firstdiv{
+  color: blue;
+}
+
+.seconddiv{
+  /* dor(.) for classes */
+  color: red;
+}
+
+#singledout{
+  /*  (#) for ids */
+  color: green;
+  text-decoration: line-through;
+}
+
+/* *{
+  color:black;
+} */
+
+h3 + ul{
+  /* (+) for adjacent to each other  */
+  border:4px dotted purple;
+}
+
+li a{
+  /* space( ) for inside of something */
+  color: red;
+}
+
+li a[href="part2_css.html"]{
+  color: blue;
+  border: 5px solid orange;
+}

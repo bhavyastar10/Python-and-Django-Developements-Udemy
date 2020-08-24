@@ -1,0 +1,44 @@
+h1{
+  font-family: 'Piedra', cursive;
+  text-align: center;
+}
+
+.art{
+  margin: auto;
+}
+
+td{
+    height: 250px;
+    padding: 100px;
+    border: 10px solid white;
+}
+
+#first{
+  background-color:#264653;
+  /* border: 10px solid white; */
+  /* border: 10px solid #264653; */
+}
+
+#second{
+  background-color: #2A9D8F;
+  /* border: 10px solid white; */
+  /* border: 10px solid #2A9D8F; */
+}
+
+#third{
+  background-color: #E9C46A;
+  /* border: 10px solid white; */
+  /* border: 10px solid #E9C46A */
+}
+
+#forth{
+  background-color: #F4A261;
+  /* border: 10px solid white; */
+  /* border: 10px solid #F4A261; */
+}
+
+#fifth{
+  background-color: #E76F51;
+  /* border: 10px solid white; */
+  /* border: 10px solid #E76F51; */
+}

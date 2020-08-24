@@ -1,0 +1,23 @@
+h1{
+  font-family: "Arial";
+  color: red;
+  text-align: center;
+}
+
+p{
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body{
+  font-size: 20px;
+  /* em values related to others */
+  /* 1em = 16px */
+}
+
+#two{
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  /* ratio wrt other mentioned before */
+}
