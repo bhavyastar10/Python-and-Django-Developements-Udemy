@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sign in page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-inverse">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+              <!--  Code for the hamburger icon-->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">Welcome</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">Sign in <span class="sr-only">(current)</span></a></li> -->
+              <li><a href="/home/bhavya/udemy/bootstrap/project.html">Landing Page</a></li>
+            </ul>
+          </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+          <h1>Log In</h1>
+          <p>Enter your email and password below to log in to Coffee Lover</p>
+          <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+      </div>
+
+      <form action="file:///home/bhavya/udemy/bootstrap/project.html" method="post">
+
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+          <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+
+        <!-- <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input">
+            Keep me Logged In
+          </label>
+        </div> -->
+        <div class="checkbox">
+          <label for="ch">
+            <input type="checkbox" name="ch" value="">
+            Keep me Logged In</label>
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+        <!-- <input type="submit" name="Submit" value=""> -->
+      </form>
+
+    </div>
+
+  </body>
+</html>

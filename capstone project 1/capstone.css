@@ -1,0 +1,46 @@
+body{
+  margin: auto;
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
+  text-align: center;
+  background-color: #011627;
+  color: white;
+}
+
+p{
+  width: 700px;
+  text-align: center;
+  margin: auto;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+#first{
+  margin-top: 150px;
+}
+
+form{
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+h1,h2{
+  font-family: "Montserrat";
+}
+
+input{
+  margin-bottom:  5px;
+  height: 20px;
+  width: 300px;
+  border: 3px solid white;
+}
+
+#last{
+  background-color: orange;
+  width: 150px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 20px;
+}
