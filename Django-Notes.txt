@@ -1,0 +1,20 @@
+# Creating New Project : collection of apps and configurations which combinely makes full web application
+django-admin startproject <name>
+    - __init__ : to use project as package
+    - settings : store project settings
+    - urls : store URL patterns
+    - wsgi.py : web server gateway interface, used to deploy project on production
+    - manage.py : will be associates with many commands
+
+# Running app : 
+python manage.py Runserver
+
+
+# Creating New App:
+python manage.py startapp <name>
+    - admin.py : register model here 
+    - apps.py : appplication specific configurations
+    - models.py : application's data models
+    - tests.py : store test functions
+    - views : functions that handle requests and return responses
+    - 
